@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    flex-direction: column;
+    font-family:"Radio Canada Big";
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-right:200px;
+    margin-left: 200px;
+}
+.left-h {
+    color: #f9faf9;
+    font-weight: 800;
+    font-size: 24px;
+}
+.right-h {
+    display: flex;
+    
+    gap: 20px;
+}
+.right-h * {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content {
+    height: 300px;
+    margin-right:200px;
+    margin-left: 200px;
+}
+.hero{
+    display: flex;
+}
