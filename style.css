@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     font-family:"Radio Canada Big";
     margin: 0;
+
 }
 
 header {
@@ -14,7 +15,9 @@ header {
     padding: 15px;
     margin-right:200px;
     margin-left: 200px;
+    
 }
+
 .left-h {
     color: #f9faf9;
     font-weight: 800;
@@ -32,9 +35,50 @@ header {
 
 .content {
     height: 300px;
-    margin-right:200px;
-    margin-left: 200px;
+    
 }
+
 .hero{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:200px;
+    margin-left: 200px;
+    
+}
+.hero > div {
+ width: 50%;
+ padding: 15px;
+
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf9;
+    margin:2px
+}
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 20;
+    margin: 0;
+}
+.hero button{
+    background-color:  #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    height: 30px;
+    border: #3882f6;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+.information{
+    background-color: #f9faf9;
+}
+.information h2{ 
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
 }
